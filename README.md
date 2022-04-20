@@ -1,5 +1,5 @@
 # Nytimes app
-Og library is a library app to find any book on online by relying on external APIs.
+A clone application of the New York Times websites.
 
 ## Table of contents
 * [General info](#general-info)
@@ -10,16 +10,17 @@ Og library is a library app to find any book on online by relying on external AP
 * [Contributing](#contributing)
 
 ## General info
-This application allows the user to find any book in an instant by typing any book title.
+The New York Times web app is an American daily newspaper based in New York City. This application is a clone application of the New York Times using three (3) of the nytimes api (Article Search API, Most Popular API and Top Stories API).
 	
 ## Technologies
 Project is created with:
+* React
+* JavaScript
 * HTML
 * CSS
-* JavaScript
 	
 ## Usage
-By entering the title of a book on the search bar and clicking on the adjacent button you will be able to view all available books related to that title, and once you click on the info button you will be able to see the description of the book if available. If not available clicking on the book cover or below the book title will open another window for more details .
+The Homepage displays the fetched data showing Live news and top stories which clicking on any link opens up the page of the link. The search icon opens up the search page when clicked and entrying any word in the search bar displays all related news.
 
 ## Illustrations
 ![Initial Screen](asset/image/app_img1.jpg)    ![After Screen](asset/image/app_img2.jpg)
