@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nytimes/static/css/main.75fbbf33.css",
-    "main.js": "/nytimes/static/js/main.393f63eb.js",
-    "static/js/787.078f9839.chunk.js": "/nytimes/static/js/787.078f9839.chunk.js",
+    "main.js": "/nytimes/static/js/main.340c970e.js",
+    "static/js/787.cb897b78.chunk.js": "/nytimes/static/js/787.cb897b78.chunk.js",
     "static/media/newspaper.jpg": "/nytimes/static/media/newspaper.1cd3ee6f8d9e704bf11a.jpg",
     "static/media/logo.png": "/nytimes/static/media/logo.0cb6874bd5dda8c7cc83.png",
     "static/media/slick.svg": "/nytimes/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/nytimes/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/nytimes/index.html",
     "main.75fbbf33.css.map": "/nytimes/static/css/main.75fbbf33.css.map",
-    "main.393f63eb.js.map": "/nytimes/static/js/main.393f63eb.js.map",
-    "787.078f9839.chunk.js.map": "/nytimes/static/js/787.078f9839.chunk.js.map"
+    "main.340c970e.js.map": "/nytimes/static/js/main.340c970e.js.map",
+    "787.cb897b78.chunk.js.map": "/nytimes/static/js/787.cb897b78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75fbbf33.css",
-    "static/js/main.393f63eb.js"
+    "static/js/main.340c970e.js"
   ]
 }
