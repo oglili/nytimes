@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  /* darkest grey */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+    
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+=============== 
+Navbars
+===============
+*/
+nav {
+  background: var(--clr-white);
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.nav-toggle, .nav-person {
+  font-size: 1.5rem;
+  color: var(--clr-black);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle-search {
+  display: flex;
+}
+.menu-non-vis-small {
+  display: none;
+}
+.search-vis, .menu-vis  {
+  display: block;  
+}
+.search-non-vis, .menu-non-vis {
+  visibility: hidden;
+}
+.nav-toggle .size {
+  font-size: 1rem;
+} 
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 25px;
+}
+.logo-large {
+  height: 58px;
+}
+.span-margin {
+  font-size: 10px;
+  font-weight: 400;
+}
+.span-margin span {
+  cursor: pointer;
+}
+.nav-color {
+  background-color: #f7f7f7;
+  font-size: 10px;
+  padding: 10px;
+}
+.flex-equal {
+  flex-grow: 1;
+}
+.small-size {
+  font-size: 12px;
+}
+.text-small {
+  font-size: 11.5px;
+}
+.headline-border {
+  border-top: 1px solid rgb(219, 214, 214);
+}
+
+/*
+=============== 
+Headline details
+===============
+*/
+
+.headline-details img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.headlines img, .viewed img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*
+=============== 
+sticky navbar
+===============
+*/
+
+.navbar {
+  display: none;
+  position: relative;
+  z-index: 999;
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 3px #888888
+}
+
+.sticky-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*
+=============== 
+sidebar
+===============
+*/
+
+.sidebar-butt {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.3rem;
+  margin-bottom: 0;
+}
+.links a {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  padding: 0.5rem ;
+  color: var(--clr-grey-3);
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+}
+
+.links a:hover {
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-2);
+}
+
+.sidebar {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  box-shadow: var(--clr-red-dark);
+  transition: var(--transition);
+  transform: translate(-100%);
+}
+.show-sidebar {
+  transform: translate(0);
+}
+@media screen and (min-width: 676px) {
+  .sidebar {
+    width: 300px;
+  }
+}
+
+/*
+=============== 
+search page 
+===============
+*/
+
+
+.showcase {
+    background: url('https://images.pexels.com/photos/3953481/pexels-photo-3953481.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center/cover;
+    height: 400px;
+}
+
+.showcase .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+  max-width: 1280px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1.5rem;
+}
+
+.controls button {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: #14c8eb;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+}
+
+.controls button:hover {
+  background-color: #0ea8c7;
+}
+
+.controls button:nth-child(1) {
+  margin-right: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .showcase {
+    background: url('https://images.pexels.com/photos/3953481/pexels-photo-3953481.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat top/cover; 
+}
+
+}
