@@ -26,13 +26,13 @@ return (
       <ErrorBoundary
         FallbackComponent={ErrorFallback}
         onReset={() => {
-          <Link to='/nytimes'/>
+          <Link to='/'/>
         }}
       >
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route exact path="/nytimes" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route exact path="/nytimes/search" element={<Search />} />
             <Route exact path="*" element={<Error />} />
           </Routes>
