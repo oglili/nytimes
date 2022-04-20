@@ -1,6 +1,6 @@
 {
   "homepage": "https://oglili.github.io/nytimes",
-  "name": "og-nytimes",
+  "name": "nytimes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
