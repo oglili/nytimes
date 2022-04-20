@@ -23,7 +23,7 @@ Project is created with:
 The Homepage displays the fetched data showing Live news and top stories which clicking on any link opens up the page of the link. The search icon opens up the search page when clicked and entrying any word in the search bar displays all related news.
 
 ## Illustrations
-![Initial Screen](asset/image/app_img1.jpg)    ![After Screen](asset/image/app_img2.jpg)
+![Initial Screen](src/nytimes-page2.jpg)    ![Search Screen](src/nytimes-page2.jpg)
 
 ## Links
 Link to App:
