@@ -27,7 +27,7 @@ The Homepage displays the fetched data showing Live news and top stories which c
 
 ## Links
 Link to App:
-https://og-nytimes.netlify.app
+https://oglili.github.io/nytimes/
 Link to Github:
 https://github.com/oglili/nytimes
 
