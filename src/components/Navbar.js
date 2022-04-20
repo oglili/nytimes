@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className='nav-header'>
                     <button onClick={openMenu} className='nav-toggle'><FaBars /></button>
                     <div className={`${menu? 'menu-vis': 'menu-non-vis-small'}`}><Menu /></div>
-                    <Link to='/'><img src={logo} alt="" className='logo'/></Link>
+                    <Link to='/nytimes'><img src={logo} alt="" className='logo'/></Link>
                     <button className='nav-person'>
                         <a href={urlLogIn}><BsFillPersonFill /></a>
                     </button>
@@ -47,14 +47,14 @@ const Navbar = () => {
                     <div className='nav-toggle-search'>
                         <button onClick={openMenu} className='nav-toggle'><FaBars /></button>
                         <div className={`${menu? 'menu-vis': 'menu-non-vis'}`}><Menu /></div>
-                        <Link to='/search' className= 'm-5 nav-person'><BiSearchAlt2 /></Link>
+                        <Link to='/nytimes/search' className= 'm-5 nav-person'><BiSearchAlt2 /></Link>
                         <div className='search-non-vis'><SearchForm /></div>
                     </div>    
                     <div>
                         <p className='span-margin'><span className='mx-3'>U.S.</span><span className='mx-3'>INTERNATIONAL</span><span className='mx-3'>CANADA</span><span className='mx-3'>ESPAÑOL</span><span className='mx-3'>中文</span></p>
                     </div>
                     <div>
-                        <span className='mx-5 bg-slate-500 text-xs p-2 text-white'><Link to='/' >SUBSCRIBE FOR $1/WEEK</Link></span>
+                        <span className='mx-5 bg-slate-500 text-xs p-2 text-white'><Link to='/nytimes' >SUBSCRIBE FOR $1/WEEK</Link></span>
                         <button className='nav-person'>
                             <a href={urlLogIn}><BsFillPersonFill /></a>                            
                         </button>
