@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../logo.png';
-import { v4 as uuidv4 } from 'uuid';
 import { useGlobalContext } from './context';
 
 const Footer = () => {

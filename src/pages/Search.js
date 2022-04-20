@@ -26,7 +26,7 @@ const Search = () => {
     
     return (
         <div>
-            <Link to='/' className='flex'><FaChevronLeft /><span className='pt 1'>back</span></Link>      
+            <Link to='/nytimes' className='flex'><FaChevronLeft /><span className='pt 1'>back</span></Link>      
             <div className="showcase mt-2">
                 <div className="overlay">
                     <h1 className="text-4x1 font-bold text-white text-center mb-4 capitalize lg:text-6xl">Viewing articles about {term}</h1>

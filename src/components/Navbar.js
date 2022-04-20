@@ -37,7 +37,7 @@ const Navbar = () => {
                     <div>
                         <p className="font-bold">{today}</p>
                     </div>
-                    <Link to='/' >SUBSCRIBE FOR $1/WEEK</Link>
+                    <Link to='/nytimes' >SUBSCRIBE FOR $1/WEEK</Link>
                 </div>
             </div>
         </nav>
@@ -69,7 +69,7 @@ const Navbar = () => {
                         <p className="font-bold text-xs">{today}</p>
                         <p className="text-xs">Today's Paper</p>
                     </div>
-                    <Link to='/'><img src={logo} alt="" className='logo-large'/></Link>
+                    <Link to='/nytimes'><img src={logo} alt="" className='logo-large'/></Link>
                     <button className='nav-person'>
                         <TiWeatherPartlySunny />
                     </button> 
