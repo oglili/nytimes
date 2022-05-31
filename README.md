@@ -18,8 +18,12 @@ Project is created with:
 * JavaScript
 * HTML
 * CSS
+* Tailwindcss
 	
 ## Usage
+*  Use git clone to clone the repository.
+*  Install required dependencies with npm install.
+*  Run the server with npm start
 The Homepage displays the fetched data showing Live news and top stories which clicking on any link opens up the page of the link. The search icon opens up the search page when clicked and entrying any word in the search bar displays all related news.
 
 ## Illustrations
@@ -27,7 +31,7 @@ The Homepage displays the fetched data showing Live news and top stories which c
 
 ## Links
 Link to App:
-https://og-nytimes.netlify.app
+https://oglili.github.io/nytimes/
 Link to Github:
 https://github.com/oglili/nytimes
 
